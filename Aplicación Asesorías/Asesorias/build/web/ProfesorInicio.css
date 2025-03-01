@@ -1,0 +1,154 @@
+/* Estilos globales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: var(--spacing);
+  background-color: var(--palette-color-2); /* Fondo de página */
+}
+
+/* Contenedor de bienvenida */
+.bienvenida {
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center; /* Centra el contenido */
+}
+
+.bienvenida h1 {
+  color: var(--palette-color-heading); /* Color del título */
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.bienvenida h3 {
+  color: var(--palette-color-heading-secondary); /* Color del subtítulo */
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.bienvenida p {
+  color: var(--palette-color-text); /* Color del texto */
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+
+/* Títulos */
+.page-title {
+  color: var(--palette-color-1); /* Color de los títulos de página */
+  line-height: 1.2;
+}
+
+.section-title {
+  color: var(--palette-color-3); /* Otro color para los títulos */
+  line-height: 1.2;
+}
+
+/* Cuadrícula de solicitudes */
+.request-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: var(--spacing);
+}
+
+/* Contenedor de solicitud */
+.request-container {
+  border: 1px solid var(--palette-color-3); /* Borde del contenedor de solicitud */
+  padding: 10px;
+  background-color: var(--palette-color-4); /* Fondo del contenedor de solicitud */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.2s ease-in-out;
+  /* Adding animation properties */
+  animation: fade-in 0.5s ease-in-out forwards;
+}
+
+.request-container:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.comment-textarea {
+  width: 100%; /* Ancho del 100% del contenedor */
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid var(--palette-color-3);
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  box-sizing: border-box; /* Incluir el padding y el borde en el ancho total */
+}
+
+.comment-textarea:focus {
+  outline: none;
+  border-color: var(--palette-color-1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos específicos para cada tipo de información */
+.student-matricula {
+  font-weight: bold; /* Texto en negrita */
+}
+
+.student-name {
+  color: #333; /* Color del texto */
+}
+.student-estado {
+  font-size: 15px; /* Tamaño de fuente */
+  font-weight: bold; /* Texto en negrita */
+  padding: 10px 20px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  background-color: #0C1B33; /* Color de fondo */
+  color: white; /* Color del texto */
+  display: inline-block; /* Mostrar en línea */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+  margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Botones de acción */
+.action-buttons {
+  display: flex;
+  justify-content: center; /* Centra los botones horizontalmente */
+  gap: 10px; /* Espacio entre botones */
+  user-select: none;
+}
+
+.action-buttons button {
+  padding: 10px 20px; /* Aumenta el espacio interno */
+  border: none;
+  cursor: pointer;
+  color: white;
+  background-color: var(--primary-color); /* Utiliza el color primario definido */
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Transición suave al cambiar de color */
+}
+
+.action-buttons button[type="submit"] {
+  background-color: var(--palette-color-1); /* Color primario para los botones de enviar */
+}
+
+.action-buttons button[type="submit"]:hover {
+  background-color: var(--secondary-color); /* Color secundario para los botones de enviar al pasar el cursor */
+}
+
+/* Propiedades personalizadas */
+body {
+  --primary-color: #007bff; /* Color azul primario */
+  --secondary-color: #0056b3; /* Color azul secundario */
+  --spacing: 20px; /* Espaciado común */
+  --palette-color-1: #F07167; /* Primer color de la paleta */
+  --palette-color-2: #FED9B7; /* Segundo color de la paleta */
+  --palette-color-3: #FDFCDC; /* Tercer color de la paleta */
+  --palette-color-4: #00AFB9; /* Cuarto color de la paleta */
+  --palette-color-5: #0081A7; /* Quinto color de la paleta */
+}
+
+/* Agregando animaciones */
+@keyframes fade-in {
+  0% {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,84 @@
+body {
+    font-family: "Exo 2", sans-serif;
+    background-color: #FDFCDC;
+    margin: 0;
+    padding: 0;
+}
+.encabezado {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0081A7;
+}
+.encabezado-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.encabezado h1 {
+    font-family: 'Exo 2', sans-serif;
+    color: #FDFCDC;
+    margin-bottom: 10px;
+}
+
+.encabezado img {
+    width: 100px;
+    height: auto;
+}
+.consulta {
+    margin: 20px auto;
+    width: 80%;
+}
+
+.consulta table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.consulta th, .consulta td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.consulta th {
+    background-color: #F07167;
+    color: #333;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f0f0f0;
+    color: #333;
+}
+td{
+    background-color: #FED9B7;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-right: 500px;
+}
+
+.button a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button a:hover {
+    background-color: #0056b3;
+}
+
