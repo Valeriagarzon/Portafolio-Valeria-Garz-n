@@ -1,0 +1,42 @@
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador\bin\Debug\Reloj_Checador.exe.config
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador\bin\Debug\Reloj_Checador.exe
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador\bin\Debug\Reloj_Checador.pdb
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador\obj\Debug\Reloj_Checador.csproj.AssemblyReference.cache
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador\obj\Debug\Reloj_Checador.Form1.resources
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador\obj\Debug\Reloj_Checador.Properties.Resources.resources
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador\obj\Debug\Reloj_Checador.csproj.GenerateResource.cache
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador\obj\Debug\Reloj_Checador.csproj.CoreCompileInputs.cache
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador\obj\Debug\Reloj_Checador.exe
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador\obj\Debug\Reloj_Checador.pdb
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador - copia\bin\Debug\Reloj_Checador.exe.config
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador - copia\bin\Debug\Reloj_Checador.exe
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador - copia\bin\Debug\Reloj_Checador.pdb
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador - copia\obj\Debug\Reloj_Checador.csproj.AssemblyReference.cache
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador - copia\obj\Debug\Reloj_Checador.Form1.resources
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador - copia\obj\Debug\Reloj_Checador.Properties.Resources.resources
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador - copia\obj\Debug\Reloj_Checador.csproj.GenerateResource.cache
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador - copia\obj\Debug\Reloj_Checador.csproj.CoreCompileInputs.cache
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador - copia\obj\Debug\Reloj_Checador.exe
+D:\8voSemestre\Desarrollo_Basado_Modelos\Proyecto_Final\Reloj_Checador - copia\obj\Debug\Reloj_Checador.pdb
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\bin\Debug\Reloj_Checador.exe.config
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\bin\Debug\Reloj_Checador.exe
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\bin\Debug\Reloj_Checador.pdb
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\bin\Debug\Firebase.dll
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\bin\Debug\LiteDB.dll
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\bin\Debug\System.Reactive.dll
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\bin\Debug\Firebase.xml
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\bin\Debug\LiteDB.xml
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\bin\Debug\System.Reactive.xml
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\obj\Debug\Reloj_Checador.csproj.AssemblyReference.cache
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\obj\Debug\Reloj_Checador.Form1.resources
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\obj\Debug\Reloj_Checador.Properties.Resources.resources
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\obj\Debug\Reloj_Checador.csproj.GenerateResource.cache
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\obj\Debug\Reloj_Checador.csproj.CoreCompileInputs.cache
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\obj\Debug\Reloj_Ch.E9DC761D.Up2Date
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\obj\Debug\Reloj_Checador.exe
+C:\Users\Evelyn\Documents\Desarrollo Basado en Modelos\Reloj_Checador\obj\Debug\Reloj_Checador.pdb
+C:\Users\vicente\Documents\Buap Valeria\Semestre 8\Desarrollo basado en Modelos\Proyecto_Final_DBM\Reloj_Checador\obj\Debug\Reloj_Checador.csproj.AssemblyReference.cache
+C:\Users\vicente\Documents\Buap Valeria\Semestre 8\Desarrollo basado en Modelos\Proyecto_Final_DBM\Reloj_Checador\obj\Debug\Reloj_Checador.exe
+C:\Users\vicente\Documents\Buap Valeria\Semestre 8\Desarrollo basado en Modelos\Proyecto_Final_DBM\Reloj_Checador\obj\Debug\Reloj_Checador.pdb

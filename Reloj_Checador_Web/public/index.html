@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj Checador</title>
+    <link rel="stylesheet" href="reloj.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Reloj Checador</h1>
+        <!-- Mostrar la fecha y hora actual -->
+        <div id="mostrarFechaHora"></div>
+
+        <!-- Formulario de registro de entrada y salida -->
+        <div class="form-group">
+            <label for="idEmpleado">ID de Empleado</label>
+            <input type="text" id="idEmpleado" placeholder="Ingresa el ID del empleado">
+            
+            <label>Tipo de Registro</label>
+            <label for="entrada">
+                <input type="radio" id="entrada" name="tipoRegistro" value="entrada"> Registrar Entrada
+            </label>
+            <label for="salida">
+                <input type="radio" id="salida" name="tipoRegistro" value="salida"> Registrar Salida
+            </label>
+        </div>
+        
+
+        <button id="btnRegistrar">Registrar</button>
+
+        <!-- Tabla de registros de asistencia -->
+        <div class="records">
+            <h2>Registros de Asistencia</h2>
+            <button id="btnmostrarAsistencias">Ver Asistencias</button>
+            <table id="tablaAsistencia">
+                <thead>
+                    <tr>
+                        <th>ID Empleado</th>
+                        <th>Fecha</th>
+                        <th>Entrada</th>
+                        <th>Salida</th>
+                        <th>Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Los registros de asistencia se cargarán aquí -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="relojChecador.js"></script>
+    <script type="module" src="Asistencias.js"></script>
+</body>
+
+</html>

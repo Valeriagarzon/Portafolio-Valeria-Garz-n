@@ -1,0 +1,146 @@
+body {
+    font-family: 'Arial', sans-serif; /* Tipo de fuente general */
+    background-color: #001524; /* Fondo oscuro principal */
+    color: #FFECD1; /* Color de texto claro */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 450px; /* Limitar el ancho del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+    padding: 20px;
+    background-color: #15616D; /* Fondo del contenedor */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para darle profundidad */
+}
+
+h1, h2 {
+    color: #FFECD1; /* Color claro para los títulos */
+    text-align: center; /* Centramos los títulos */
+}
+
+#mostrarFechaHora {
+    background-color: #001524; /* Fondo oscuro */
+    color: #FFECD1; /* Texto claro */
+    font-size: 28px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    background-color: #15616D; /* Fondo del formulario */
+    padding: 20px; /* Espacio interno */
+    border-radius: 10px; /* Bordes redondeados */
+    margin-bottom: 20px;
+    color: #FFECD1; /* Texto claro */
+}
+
+.form-group label {
+    font-size: 16px;
+    margin-bottom: 10px;
+    display: block; /* Para que las etiquetas aparezcan encima del input */
+}
+
+input[type="text"] {
+    width: 100%; /* Ocupar todo el ancho */
+    padding: 10px;
+    border: 2px solid #FFECD1;
+    border-radius: 5px;
+    background-color: #001524; /* Fondo oscuro para el input */
+    color: #FFECD1; /* Texto claro */
+    margin-bottom: 20px; /* Espaciado debajo del input */
+    box-sizing: border-box; /* Para que el padding no afecte al ancho */
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+    accent-color: #FF7D00; /* Cambia el color del radio button */
+}
+
+label[for="entrada"], label[for="salida"] {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.form-group label[for="entrada"], .form-group label[for="salida"] {
+    color: #FFECD1; /* Color claro para etiquetas */
+}
+
+.form-group input[type="radio"] + label {
+    margin-right: 20px;
+    cursor: pointer; /* Cambiar el cursor cuando esté sobre las etiquetas */
+}
+
+input[type="text"]:focus {
+    border-color: #FF7D00; /* Cambia el borde cuando el input está activo */
+    outline: none; /* Remover el borde del sistema */
+}
+
+.form-group label:first-child {
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #FF7D00; /* Naranja para los botones */
+    color: #001524; /* Texto oscuro */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    display: block;
+    width: 80%; /* Ancho del 80% */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+button:hover {
+    background-color: #FF9B33; /* Naranja más claro en hover */
+}
+
+.records {
+    margin-top: 30px;
+}
+
+/* Estilo para centrar la tabla */
+table {
+    width: 80%;
+    margin: 0 auto; 
+    border-collapse: collapse;
+    background-color: #001524;
+    color: #FFECD1; 
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+table thead {
+    background-color: #15616D; 
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #FFECD1;
+}
+
+table th {
+    font-weight: bold;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #15616D; 
+}
+
+table tbody tr:hover {
+    background-color: #FF7D00;
+    color: #001524; 
+}
+
+
