@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://www.nerdfonts.com/assets/css/webfont.css"
+      rel="stylesheet"
+    />
+    <link href="../css/cursos.css" rel="stylesheet" />
+    <script src=" https://cdn.jsdelivr.net/npm/fullcalendar@6.1.9/index.global.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="../javaScript/calendar.js"></script>
+    <script src="../javaScript/logout.js"></script>
+    <link rel="shortcut icon" href="../img/logoSF.png" type="image/x-icon" />
+    <link href="../css/styleI.css" rel="stylesheet" />
+    <title>Inicio</title>
+  </head>
+  <body>
+    <!--Menú lateral-->
+    <div class="offcanvas offcanvas-start" id="demo">
+      <div class="mla h-100">
+        <div class="offcanvas-header mt-4">
+          <img src="../img/logoSF.png" class="" />
+          <h4 class="offcanvas-title">Conectando sentidos</h4>
+          <button
+            type="button"
+            class="btn-close"
+            data-bs-dismiss="offcanvas"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <a href="horario.html" class="my-5 nav-link">
+            <p class="h4"><i class="nf nf-oct-calendar"></i> Calendario</p>
+          </a>
+          <a href="sesiones.html" class="my-5 nav-link">
+            <p class="h4"><i class="nf nf-md-google_classroom"></i> Cursos</p>
+          </a>
+          <a href="foro.html" class="my-5 nav-link">
+            <p class="h4"><i class="nf nf-seti-config"></i> Foro</p>
+          </a>
+          <a href="" class="nav-link fixed-bottom">
+            <p class="h4 text-white mt-4">
+              <i class="nf nf-fa-user p-3"></i> Usuario
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--Botón del menú lateral-->
+    <div
+      class="container-fluid mt-3 shadow d-flex justify-content-between py-2 mb-5"
+    >
+      <button
+        class="btn"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#demo"
+      >
+        <i class="nf nf-cod-menu text-white"></i>
+      </button>
+      <div class="text-white">
+        <i class="nf nf-fa-calendar_o text-white"></i> Calendario
+      </div>
+    </div>
+
+    <a href="acceso.html" id="logout"
+      ><input type="submit" id="salir" value="Cerrar Sesión"
+    /></a>
+    <div class="cuadro-dialogo" id="cuadro-dialogo">
+      <div class="contenido">
+        <p>¿Desea cerrar la sesión?</p>
+        <button id="aceptar">Aceptar</button>
+        <button id="cancelar">Cancelar</button>
+      </div>
+    </div>
+    <div class="container">
+      <div class="col-md-8 offset-md-2">
+        <div id="calendar"></div>
+      </div>
+    </div>
+    <!-- The Modal -->
+    <div class="modal" id="modalEventos">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title" id="">Reunión</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+          <!-- Modal body -->
+          <div class="modal-body">
+            <input type="hidden" id="txtID" name="txtID" />
+            <input type="hidden" id="txtFecha" name="txtFecha" />
+            <input type="hidden" id="txtFechados" name="txtFecha" />
+            Inicio: <br />
+            <input type="time" id="txtHora" name="txtHora" /><br />
+            Fin: <br />
+            <input type="time" id="txtHorados" name="txtHorados" /><br />
+            Titulo: <br /><input
+              type="text"
+              id="txtTitulo"
+              name="txtTitulo"
+            /><br />
+            Terapeuta: <br /><input
+              type="text"
+              id="txtFecha"
+              name="txtFecha"
+              value="Juan Perez"
+            /><br />
+            Descripcion: <br /><textarea
+              id="txtDescripcion"
+              name="txtDescripcion"
+              rows="3"
+            ></textarea
+            ><br />
+            Color: <br /><input
+              type="color"
+              id="txtColor"
+              name="txtColor"
+            /><br />
+          </div>
+
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-success" id="btnAgregarClase">
+              Agregar
+            </button>
+            <button type="button" class="btn btn-success" id="btnUnirseClase">
+              <a href="reunion.html">Unirse</a>
+            </button>
+            <button
+              type="button"
+              class="btn btn-success"
+              id="btnModificarClase"
+            >
+              Modificar
+            </button>
+            <button type="button" class="btn btn-success" id="btnEliminarClase">
+              Eliminar
+            </button>
+            <button
+              type="button"
+              class="btn btn-danger"
+              id="btnClose"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
